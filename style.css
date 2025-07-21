@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: #ffeaedf9;
+}
+#myGif {
+    width: 70px;
+    height: auto;
+    max-width: 100%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 600px;
+    margin-left: 23%;
+    position: fixed;
+    border: 3px solid #d5d5d5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#slider{
+    width: 750px;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#slidesContain{
+    max-width: auto;
+    max-height: auto;
+    position: relative;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+#slidesLine{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    transition: 0.5s;
+}
+
+#slidesLine > *{
+    width: 70vw;
+    height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 60px;
+    
+}
+
+#buttonsContain{
+    margin-top: 5px;
+    display: flex;
+}
+
+#left{
+    position: fixed;
+    margin-left: 150px;
+}
+#right{
+    margin-left: 450px
+}
+#buttonsContain > *{
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #ffa4e5;
+        border: none;
+        border-radius: 30px;
+      }
+      
+      .button:hover {
+        background-color: #ffffff
+      }
+      
+#buttonsContain > *:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 56, 152);
+  transform: scale(100%);
+  box-shadow: 0 8px 16px 0 #6c1957, 0 6px 20px 0 #6c1957;
+}
+
+#countContain{
+ position: relative;
+ padding-left: 50%;
+}
+
+
+#countContain{
+    font-size: 15px;
+}
